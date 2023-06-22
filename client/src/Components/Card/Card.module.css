@@ -1,0 +1,50 @@
+.imagen {
+  width: 600px;
+
+  height: auto;
+  object-fit: cover;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+}
+
+.tarjeta:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta > div:first-child {
+  margin-bottom: 16px;
+}
+
+.tarjeta h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.temperamentList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.temperamentItem {
+  margin-right: 8px;
+  background-color: #f1f1f1;
+  border-radius: 16px;
+  padding: 4px 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+  
